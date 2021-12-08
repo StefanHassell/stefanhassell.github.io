@@ -1,0 +1,52 @@
+html { 
+    background-color: rgb(14, 13, 14);}
+
+h1 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    color: rgb(255, 253, 226);
+    text-align: center; }
+
+#light { 
+    position: absolute;
+    top: 5%;
+    right: 15%; }
+
+#winner { 
+    width: 100%;
+    position: absolute;
+    z-index: 100; } 
+
+#showwin { 
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    display: none; }
+              
+#container {
+    height: 100%;
+    position: relative; }
+
+#running { 
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    position: absolute; }
+
+#running2 { 
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    position: absolute; }
+
+#running3 { 
+    width: 100px;
+    height: 100px;
+    top: 240px;
+    position: absolute; }
+
+#finish {
+    float: right;
+    height: 400px;
+    width: 98px;
+}
